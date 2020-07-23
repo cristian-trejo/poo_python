@@ -2,6 +2,7 @@ import random
 import time
 
 def ordenamiento_mezcla(lista, steps = 0):
+    # Si la longitud de la lista es 1 solo devuelve el valor de la lista
     if len(lista) > 1:      
         # Dividimos la lista en mitades hasta que sean de 1 elemento
         # Tiene un crecimiento logaritmico [line 7 - line 13]
